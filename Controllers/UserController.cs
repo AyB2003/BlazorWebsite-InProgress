@@ -43,7 +43,7 @@ namespace TrackerDeFavorisApi.Controllers
             return NotFound("No users Found.");
         }
         else{
-            return Ok(admins);
+            return Ok($"Voici les admins {admins}");
         }
 
     }
