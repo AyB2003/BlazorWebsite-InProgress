@@ -17,7 +17,6 @@ This project is a **Backend for a website** built using **C#** and **Blazor**, f
   - Role-based access control to secure sensitive endpoints.
 
 - **API Endpoints**:
-  - RESTful APIs for handling **CRUD** operations.
   - Uses **JSON** serialization for data exchange.
 
 - **Real-Time Updates**:
