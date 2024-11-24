@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrackerDeFavorisApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1d04f8b5ba1f86391505b9b4e2d7a2943822ea2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee5f3604f01a9b0f389b2e7d3d92b01b69d3d7a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrackerDeFavorisApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrackerDeFavorisApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

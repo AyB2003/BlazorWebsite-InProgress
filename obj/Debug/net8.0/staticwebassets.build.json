@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "wM5tYaRMqGxqvz+4nvWyz+f91I4cP9kzvIKrF/ZGSjA=",
+  "Hash": "QpgIgC+om0OmA1jDzD/tQdBoG+K2MmcYCstK87/xlnU=",
   "Source": "TrackerDeFavorisApi",
   "BasePath": "_content/TrackerDeFavorisApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

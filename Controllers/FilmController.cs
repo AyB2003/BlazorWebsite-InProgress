@@ -41,8 +41,8 @@ namespace TrackerDeFavorisApi.Controllers
                 return Ok($"Voici les films {LesFilmsxt}");
             }
         }
-        [HttpGet("Add Films")]
-        public async Task<ActionResult<List<Film>>> GetFilmIds([FromQuery] List<int> ids){
+        [HttpGet("Id Films")]
+        public async Task<ActionResult<IEnumerable<Film>>> GetFilm([FromQuery] int[] ids){
             var LesFilmid = await _Filmcontext.Films.Where(f => ids.Contains(f.Id)).ToListAsync();
             if (LesFilmid == null || LesFilmid.Count == 0){
                 return NotFound("Pas de films");

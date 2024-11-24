@@ -18,6 +18,7 @@ public class Program
         // Adding the DataBase
         builder.Services.AddDbContext<UserContext>();
         builder.Services.AddDbContext<FilmContext>();
+        builder.Services.AddDbContext<FavorisContext>();
 
         var app = builder.Build();
 
