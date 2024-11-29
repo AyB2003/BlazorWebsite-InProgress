@@ -11,6 +11,9 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
+        builder.Services.AddScoped<AuthenticationStateProvider, AuthProvider>();
+        builder.Services.AddAuthenticationCore();
+
 
         var app = builder.Build();
 
@@ -22,6 +25,8 @@ public class Program
 
         app.UseStaticFiles();
         app.UseAntiforgery();
+        app.UseAuthentication();
+        app.UseAuthorization();
 
         app.MapRazorComponents<App>()
             .AddInteractiveServerRenderMode();
