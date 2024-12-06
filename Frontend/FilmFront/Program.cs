@@ -11,7 +11,6 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
-        builder.Services.AddScoped<AuthenticationStateProvider, AuthProvider>();
         builder.Services.AddAuthenticationCore();
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HbDjM3STOAG335zaeEviAp2TpVFdC5R9RInIj6vz+UWH8mgdbMxjfmEqnNEc5Q2ljonAhCDyzCxO2G2LweGk0w==",
+  "dgSpecHash": "tNEFnFYUVGgRTd/ocUDMrqSoFyrwCmA3dUbOB251mPx3WqDuQ6JC/bLv5gm2KCRkNc7E2b7uvRt6+LhOZzcGvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\TrackerDeFavorisApi.csproj",
+  "projectFilePath": "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aynasri\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\aynasri\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -1,6 +1,8 @@
-
-using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using TrackerDeFavorisApi.Models;
+using TrackerDeFavorisApi.Services; // Assurez-vous que le namespace de votre service Omdb est bien importé
+
 namespace TrackerDeFavorisApi;
 
 public class Program
@@ -9,20 +11,19 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
-
         builder.Services.AddControllers();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        // Adding the DataBase
+
         builder.Services.AddDbContext<UserContext>();
         builder.Services.AddDbContext<FilmContext>();
         builder.Services.AddDbContext<FavorisContext>();
 
-        var app = builder.Build();
+        builder.Services.AddHttpClient<OmdbService>();
 
-        // Configure the HTTP request pipeline.
+        builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
+
+        var app = builder.Build();
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -30,7 +31,6 @@ public class Program
         }
 
         app.UseAuthorization();
-
 
         app.MapControllers();
 

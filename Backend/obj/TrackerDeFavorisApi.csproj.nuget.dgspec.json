@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\TrackerDeFavorisApi.csproj": {}
+    "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\TrackerDeFavorisApi.csproj": {
+    "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\TrackerDeFavorisApi.csproj",
+        "projectUniqueName": "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
         "projectName": "TrackerDeFavorisApi",
-        "projectPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\TrackerDeFavorisApi.csproj",
+        "projectPath": "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
         "packagesPath": "C:\\Users\\aynasri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\obj\\",
+        "outputPath": "C:\\Users\\aynasri\\Desktop\\BlazorWebsite-InProgress\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aynasri\\AppData\\Roaming\\NuGet\\NuGet.Config",
