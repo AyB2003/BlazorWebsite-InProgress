@@ -1,11 +1,30 @@
-<form>
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+<form @onsubmit="Connexion">
     <div>
         <label for="login">Login</label>
-        <input type="text" id="login">
+        <input type="text" id="login" @bind="loginModel.Login">
     </div>
     <div>
         <label for="password">Mot de passe</label>
-        <input type="password" id="password">
+        <input type="password" id="password" @bind="loginModel.Password">
     </div>
     <button type="submit">Se connecter</button>
 </form>
+
+@code {
+    private Userinfo loginModel = new Userinfo();
+    private async Task Connexion()
+    {
+        var user = await UserService.Login(loginModel);
+        if (user != null)
+        {
+            NavigationManager.NavigateTo("/Page");
+        }
+        else
+        {
+            Console.WriteLine("Login failed. Please check your credentials and try again.");
+        }
+        }
+    }
+}

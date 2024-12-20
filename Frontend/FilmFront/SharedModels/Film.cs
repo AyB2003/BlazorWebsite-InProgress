@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 
-namespace Frontend.SharedModels
+namespace FilmFront.Components.SharedModels
 {
     public class Film
     {

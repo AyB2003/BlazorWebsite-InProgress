@@ -7,8 +7,7 @@ namespace TrackerDeFavorisApi.Models
 {
     public class Userinfo
     {
-        public string Prenom { get; set; } = "";
-        public string MotDePasse { get; set; } = "";
-        public int Id { get; set; } = 0;
+        public string Login { get; set; }
+        public string Password { get; set; } = "";
     }
 }

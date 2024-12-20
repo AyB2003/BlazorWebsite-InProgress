@@ -1,5 +1,8 @@
 using FilmFront.Components;
-
+using FilmFront.Components.SharedModels;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 namespace FilmFront;
 
 public class Program
@@ -12,7 +15,8 @@ public class Program
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
         builder.Services.AddAuthenticationCore();
-
+        builder.Services.AddScoped<UserService>();
+        builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseAddress"]) });
 
         var app = builder.Build();
 

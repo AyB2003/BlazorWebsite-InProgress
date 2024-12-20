@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Http.HttpResults;
-using TrackerDeFavorisApi.Models;
-namespace Backend.Services
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using FilmFront.Components.SharedModels;
+namespace FilmFront.Components.SharedModels
 {
     public class UserService
     {

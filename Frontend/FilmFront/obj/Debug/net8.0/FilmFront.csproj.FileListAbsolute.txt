@@ -1,9 +1,3 @@
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.AssemblyInfoInputs.cache
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.AssemblyInfo.cs
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.csproj.CoreCompileInputs.cache
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.sourcelink.json
 C:\Users\aynasri\BlazorWebsiteInProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.csproj.AssemblyReference.cache
 C:\Users\aynasri\BlazorWebsiteInProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\aynasri\BlazorWebsiteInProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.AssemblyInfoInputs.cache
@@ -60,6 +54,12 @@ C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\bin\Debug\net8.0\Mi
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.csproj.AssemblyReference.cache
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.AssemblyInfoInputs.cache
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.AssemblyInfo.cs
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.csproj.CoreCompileInputs.cache
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\FilmFront.sourcelink.json
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\aynasri\BlazorWebsite-InProgress\Frontend\FilmFront\obj\Debug\net8.0\staticwebassets\msbuild.FilmFront.Microsoft.AspNetCore.StaticWebAssets.props

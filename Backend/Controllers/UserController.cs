@@ -50,8 +50,8 @@ namespace TrackerDeFavorisApi.Controllers
     [HttpPost("register")]
     public async Task<ActionResult<User>> PostUser(Userinfo userinfo) {
         var user = new User();
-        user.Id = userinfo.Prenom;
-        user.MotDePasse = userinfo.MotDePasse;
+        user.Id = userinfo.Login;
+        user.MotDePasse = userinfo.Password;
         _userManager.Users.Add(user);
         await _userManager.SaveChangesAsync();
         return CreatedAtAction(nameof(GetUser), new { Id = user.Id }, user);
@@ -59,9 +59,9 @@ namespace TrackerDeFavorisApi.Controllers
 
     [HttpPost("login")]
     public async Task<ActionResult> PostLogin(Userinfo userinfo){
-        var found = await _userManager.Users.FirstOrDefaultAsync(u => userinfo.Prenom == u.Id && userinfo.MotDePasse == u.MotDePasse);
+        var found = await _userManager.Users.FirstOrDefaultAsync(u => userinfo.Login == u.Id && userinfo.Password == u.MotDePasse);
         if (found != null){
-            return Ok($"Welcom {userinfo.Prenom}");
+            return Ok($"Welcom {userinfo.Login}");
         }
         else{
             return NotFound("User not in the DataBase");
@@ -70,12 +70,12 @@ namespace TrackerDeFavorisApi.Controllers
 
     [HttpPut(" ")]
     public async Task<ActionResult<User>> PutUser(Userinfo userinfo){
-        var user = await _userManager.Users.FindAsync(userinfo.Prenom);
+        var user = await _userManager.Users.FindAsync(userinfo.Login);
         if (user == null){
             return NotFound();
         }
-        user.Prenom = userinfo.Prenom;
-        user.MotDePasse = userinfo.MotDePasse;
+        user.Prenom = userinfo.Login;
+        user.MotDePasse = userinfo.Password;
         _userManager.Entry(user).State = EntityState.Modified;
         try
             {
