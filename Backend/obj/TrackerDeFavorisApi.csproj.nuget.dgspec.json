@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {}
+    "C:\\Users\\nasri ayoub\\OneDrive - Université Clermont Auvergne\\Desktop\\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\\2024-2025\\TPdev\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {
+    "C:\\Users\\nasri ayoub\\OneDrive - Université Clermont Auvergne\\Desktop\\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\\2024-2025\\TPdev\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
+        "projectUniqueName": "C:\\Users\\nasri ayoub\\OneDrive - Université Clermont Auvergne\\Desktop\\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\\2024-2025\\TPdev\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
         "projectName": "TrackerDeFavorisApi",
-        "projectPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
-        "packagesPath": "C:\\Users\\aynasri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Backend\\obj\\",
+        "projectPath": "C:\\Users\\nasri ayoub\\OneDrive - Université Clermont Auvergne\\Desktop\\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\\2024-2025\\TPdev\\BlazorWebsite-InProgress\\Backend\\TrackerDeFavorisApi.csproj",
+        "packagesPath": "C:\\Users\\nasri ayoub\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nasri ayoub\\OneDrive - Université Clermont Auvergne\\Desktop\\1901083VX2501425SQ400228CSL2101197SQ2001140DXUD\\2024-2025\\TPdev\\BlazorWebsite-InProgress\\Backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aynasri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nasri ayoub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -78,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
