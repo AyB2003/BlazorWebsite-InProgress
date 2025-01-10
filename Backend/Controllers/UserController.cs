@@ -61,10 +61,10 @@ namespace TrackerDeFavorisApi.Controllers
     public async Task<ActionResult> PostLogin(Userinfo userinfo){
         var found = await _userManager.Users.FirstOrDefaultAsync(u => userinfo.Login == u.Id && userinfo.Password == u.MotDePasse);
         if (found != null){
-            return Ok($"Welcom {userinfo.Login}");
+            return Ok(new { message = "Login successful", userId = found.Id} );
         }
         else{
-            return NotFound("User not in the DataBase");
+            return NotFound();
         }
     }
 
