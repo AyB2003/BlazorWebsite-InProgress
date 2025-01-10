@@ -1375,11 +1375,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
+      "projectUniqueName": "C:\\Users\\aynasri\\Desktop\\CODETEMP\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
       "projectName": "FilmFront",
-      "projectPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
+      "projectPath": "C:\\Users\\aynasri\\Desktop\\CODETEMP\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
       "packagesPath": "C:\\Users\\aynasri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\obj\\",
+      "outputPath": "C:\\Users\\aynasri\\Desktop\\CODETEMP\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aynasri\\AppData\\Roaming\\NuGet\\NuGet.Config",

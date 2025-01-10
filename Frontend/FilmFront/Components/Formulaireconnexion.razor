@@ -1,22 +1,24 @@
 @inject UserService UserService
 @inject NavigationManager NavigationManager
-<form @onsubmit="Connexion">
+<EditForm FormName="connexion" Model="@loginModel" OnValidSubmit="Connexion">
     <div>
         <label for="login">Login</label>
-        <input type="text" id="login" @bind="loginModel.Login">
+        <InputText  id="login" @bind-Value="loginModel.Login" />
     </div>
     <div>
         <label for="password">Mot de passe</label>
-        <input type="password" id="password" @bind="loginModel.Password">
+        <InputText type="password" id="password" @bind-Value="loginModel.Password" />
     </div>
     <button type="submit">Se connecter</button>
-</form>
+</EditForm>
 
 @code {
     private Userinfo loginModel = new Userinfo();
     private async Task Connexion()
     {
+        
         var user = await UserService.Login(loginModel);
+
         if (user != null)
         {
             NavigationManager.NavigateTo("/Page");
@@ -24,7 +26,6 @@
         else
         {
             Console.WriteLine("Login failed. Please check your credentials and try again.");
-        }
         }
     }
 }

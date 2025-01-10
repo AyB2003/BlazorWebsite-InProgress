@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AnxwyWQzGIbId0DsuFMBil1Vd6v3+O6EHggWAGcl7ATtP4OcRfU8sO5vrdEhfo0E2noOxxKYq0dpfCnwY1+7dg==",
+  "dgSpecHash": "tdgNtW1f/PmL8qcfDjrhXBERtU3xzyanmG9HdUjlYg2yIQGb5x1icXCKQTHwju2hlXwku9vxFK5yEJHQei7Z5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aynasri\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
+  "projectFilePath": "C:\\Users\\aynasri\\Desktop\\CODETEMP\\BlazorWebsite-InProgress\\Frontend\\FilmFront\\FilmFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aynasri\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\aynasri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",

@@ -14,14 +14,14 @@ namespace FilmFront.Components.SharedModels
         }
         public async Task<Userinfo> Login(Userinfo userinfo)
         {
-
             var response = await _httpClient.PostAsJsonAsync($"api/User/login", userinfo);
-            if (response == null)
+
+            if (response.IsSuccessStatusCode)
             {
-                return null;
+                return await response.Content.ReadFromJsonAsync<Userinfo>();
             }
             else{
-                return await response.Content.ReadFromJsonAsync<Userinfo>();
+                return null;
             }
         }
     }
