@@ -1,0 +1,31 @@
+@inject UserService UserService
+@inject NavigationManager NavigationManager
+<EditForm FormName="Inscription" Model="@loginModel" OnValidSubmit="Inscription">
+    <div>
+        <label for="inscription">Login</label>
+        <InputText  id="login" @bind-Value="loginModel.Login" />
+    </div>
+    <div>
+        <label for="password">Mot de passe</label>
+        <InputText type="password" id="password" @bind-Value="loginModel.Password" />
+    </div>
+    <button type="submit">S'inscrire'</button>
+</EditForm>
+
+@code {
+    private Userinfo loginModel = new Userinfo();
+    private async Task Inscription()
+    {
+        
+        var user = await UserService.Register(loginModel);
+
+        if (user != null)
+        {
+            NavigationManager.NavigateTo("/Connexion");
+        }
+        else
+        {
+            Console.WriteLine("This user already exists.");
+        }
+    }
+}

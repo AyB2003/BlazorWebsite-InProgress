@@ -24,5 +24,16 @@ namespace FilmFront.Components.SharedModels
                 return null;
             }
         }
+        public async Task<Userinfo> Register(Userinfo userinfo)
+        {
+            var response = await _httpClient.PostAsJsonAsync($"api/User/register", userinfo);
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<Userinfo>();
+            }
+            else{
+                return null;
+            }
+        }
     }
 }
